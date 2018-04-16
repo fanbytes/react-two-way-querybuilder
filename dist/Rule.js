@@ -137,7 +137,7 @@ var Rule = function (_React$Component) {
         case 'select':
           return _react2.default.createElement(
             'select',
-            { className: this.styles.select, onChange: this.onInputChanged },
+            { className: this.styles.select, onChange: this.onInputChanged, value: this.node.value },
             this.state.currField.input.options.map(function (option, index) {
               return _react2.default.createElement(
                 'option',
