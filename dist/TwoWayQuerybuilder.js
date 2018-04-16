@@ -40,8 +40,6 @@ var _QueryParser = require('./helpers/QueryParser');
 
 var _QueryParser2 = _interopRequireDefault(_QueryParser);
 
-require('../styles.css');
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function buildDefaultConfig(config) {
