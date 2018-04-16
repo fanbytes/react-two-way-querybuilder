@@ -86,8 +86,8 @@ var TwoWayQuerybuilder = function (_React$Component) {
       rules: []
     };
     _this.state = {
-      data: _this.config.query === '()' ? defaultData : _QueryParser2.default.parseToData(_this.config.query, _this.config),
-      query: _this.config.query === '()' ? null : _this.config.query
+      data: _this.config.data ===  null ? defaultData : _this.config.data,
+      query: _this.config.data === null ? null : _QueryParser2.default.parseToQuery(_this.config.data)
     };
     _this.handleChange = _this.handleChange.bind(_this);
     return _this;
